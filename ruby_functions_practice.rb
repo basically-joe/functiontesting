@@ -49,3 +49,7 @@ end
 def side_length_to_volume(length)
   return length**3
 end
+
+def four_thirds_pi_radius_cubed(radius)
+  return (Rational('4/3') * Math::PI * radius**3).round(2)
+end
