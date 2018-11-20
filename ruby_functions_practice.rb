@@ -41,3 +41,7 @@ end
 def number_to_full_month_name(num)
   return Date::MONTHNAMES[num]
 end
+
+def number_to_short_month_name(num)
+  return Date::ABBR_MONTHNAMES[num]
+end
