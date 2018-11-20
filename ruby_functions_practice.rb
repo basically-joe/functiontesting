@@ -37,3 +37,9 @@ def join_string( string_1, string_2 )
 end
 
 p join_string("Mary had a little lamb, ", "its fleece was white as snow")
+
+def add_string_as_number(num1, num2)
+  return num1.to_i + num2.to_i
+end
+
+p add_string_as_number("1", "2")
