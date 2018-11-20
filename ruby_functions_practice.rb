@@ -53,3 +53,7 @@ end
 def four_thirds_pi_radius_cubed(radius)
   return (Rational('4/3') * Math::PI * radius**3).round(2)
 end
+
+def fahrenheit_to_celsius(fahrenheit)
+  return ((fahrenheit - 32) *  Rational('5/9'))
+end
