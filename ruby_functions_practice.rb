@@ -25,3 +25,9 @@ def divide(num1, num2)
 end
 
 p divide(10, 2)
+
+def length_of_string (test_string)
+ return test_string.length
+end
+
+p length_of_string("A string of length 21")
