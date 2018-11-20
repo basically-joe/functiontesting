@@ -19,3 +19,9 @@ def multiply(num1, num2)
 end
 
 p multiply(4, 2)
+
+def divide(num1, num2)
+  return num1 / num2
+end
+
+p divide(10, 2)
