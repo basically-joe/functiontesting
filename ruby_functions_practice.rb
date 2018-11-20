@@ -31,3 +31,9 @@ def length_of_string (test_string)
 end
 
 p length_of_string("A string of length 21")
+
+def join_string( string_1, string_2 )
+  return "#{string_1}#{string_2}"
+end
+
+p join_string("Mary had a little lamb, ", "its fleece was white as snow")
