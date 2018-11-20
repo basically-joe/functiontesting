@@ -81,9 +81,10 @@ end
   # #Further
   #
   # #Given the length of a side of a cube calculate the volume
-  # def test_volume_of_cube()
-  #   #add test code here
-  # end
+   def test_volume_of_cube()
+     cube_volume = side_cube_to_volume(10)
+     assert_equal(1000, cube_volume)
+   end
   #
   # #Given the radius of a sphere calculate the volume
   # def test_volume_of_sphere()
